@@ -16,6 +16,8 @@ const ScheduleChart =() =>{
         
     })
 })
+
+	console.log("added")
 	// console.log("menu")
 	return(
 		<>
