@@ -9,7 +9,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Container from 'react-bootstrap/Container'
-
+import Splash from './Pages/Splash'
 
 
 import {
@@ -48,7 +48,7 @@ function App() {
       
       <Router>
         <Routes>
-          <Route exact path = "/" element={<Menu/>}/ >
+          <Route exact path = "/" element={<Splash/>}/ >
           <Route exact path = "/production" element={<ProductionAdd/>}/ >
           <Route exact path = "/schedule" element={<ScheduleChart/>}/ >
           <Route exact path = "/selling" element={<SellingReport/>}/ >
