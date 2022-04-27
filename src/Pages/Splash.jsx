@@ -1,6 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Splash = ()=>{
+
+	const variable = {
+
+
+
+	}
+
 	const blockStyle={
 		margin:"2px",
 		height:"auto", 
@@ -13,6 +20,9 @@ const Splash = ()=>{
 	const containerStyle ={
 		display:"grid"
 	}
+
+
+
 	return (
 	<>
 		<div style={{height:"20vh"}} />

@@ -10,7 +10,7 @@ import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Container from 'react-bootstrap/Container'
 import Splash from './Pages/Splash'
-
+import Playground from './Pages/Playground'
 
 import {
   BrowserRouter as Router,
@@ -48,10 +48,11 @@ function App() {
       
       <Router>
         <Routes>
-          <Route exact path = "/" element={<Splash/>}/ >
-          <Route exact path = "/production" element={<ProductionAdd/>}/ >
-          <Route exact path = "/schedule" element={<ScheduleChart/>}/ >
-          <Route exact path = "/selling" element={<SellingReport/>}/ >
+          <Route exact path = "/" element={<Splash />}/ >
+          <Route exaxt path = "/playground" element = {<Playground />} />
+          <Route exact path = "/production" element={<ProductionAdd />}/ >
+          <Route exact path = "/schedule" element={<ScheduleChart />}/ >
+          <Route exact path = "/selling" element={<SellingReport />}/ >
         </Routes>
       </Router>
 </div>

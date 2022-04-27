@@ -17,9 +17,9 @@ const ScheduleBlock = ({props:item}) =>{
 	return (
 
 		<div style={gridItem}>
-	       <h4>{item.userId}:</h4>
-	       <h5>{item.tray}/{item.pieces}</h5>
-	       <h5>yeast:{item.yeast}</h5>
+	       <p>{item.userId}:</p>
+	       <p>{item.tray}/{item.pieces}</p>
+	       <p>yeast:{item.yeast}</p>
        </div>
 		)
 }
